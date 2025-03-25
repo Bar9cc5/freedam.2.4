@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Freedam | Регистрация</title>
+</head>
+<body>
+    <section>
+        <div class="register-main">
+        <h2>Регистрация</h2>
+                <form action="about-main.html" method="POST"> 
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="Ваше имя"><br><br>
+                    <label for="phone"></label>
+                    <label for="password"></label>
+                    <input type="password" id="password" name="password" placeholder="Пароль"><br><br>
+                    <label for="phone"></label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" placeholder="+7" required title="Введите номер телефона"><br><br>
+
+        
+                    <button type="submit">Зарегистрироваться</button>
+                </form>
+        </div>
+    </section>
+    <section>
+        <div class="register-lenta">
+            <h1><span>F</span>reedam</h1>
+            <p>Добро пожаловать в <span>F</span>reedam messanger!</p>
+            <p>Присоединяйтесь к нам и начинайте общаться с друзьями и знакомыми.</p>
+            <div>
+                <a href="#">Подробнее о Freedam</a>
+                <div class="line"></div>
+                <a href="#">Скачать приложение</a>
+            </div>
+        </div>
+    </section>
+    php</
+    // ... Обработка данных формы регистрации и сохранение в базу данных
+
+    // После успешного сохранения данных
+    header("Location: about-main.html");
+    exit;
+    // ...
+    <script src="script.js">
+        // После успешной регистрации
+            window.location.replace("about-main.html");
+
+    </script>
+</body>
+</html>
